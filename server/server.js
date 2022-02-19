@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/api/hello", (req, res) => {
-  res.json("Hello CodeIN Developers");
+  res.json("I work as a SDE");
 });
 
 app.listen(5000, () => {
