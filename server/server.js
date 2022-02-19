@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
 
-app.get("/", (req, res) => {
-  res.json("Hello CodeIN");
+app.get("/api/hello", (req, res) => {
+  res.json("Hello CodeIN Developers");
 });
 
 app.listen(5000, () => {
