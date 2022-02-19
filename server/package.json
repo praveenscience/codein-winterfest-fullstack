@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is the Express Server.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Praveen Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
